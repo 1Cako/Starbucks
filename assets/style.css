@@ -1,0 +1,150 @@
+
+body
+{
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 80px;
+ 
+}
+.mesaj{
+    z-index: 2;
+    text-align: center;
+}
+.toffenut h3{
+   padding: 30px 0px 20px 30px; 
+}
+.toffenut p{
+    padding-left: 27px ;
+    opacity: 0.7;
+}
+.yemeksepeti{
+    margin-left: 5px; 
+}
+.getiryemek{
+    margin-left: 27px;
+}
+.yemeksepeti a{
+    text-decoration: none;
+    color: green;
+}
+.getiryemek a {
+    text-decoration: none;
+    color: white;
+}
+.ortadogu{
+    margin-left: 40vw;
+}
+.ortadogu p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-left: 15px;
+}
+.ortadogu h3{
+    font-size: 1.3rem;
+    margin: 0px 0px 15px 15px;
+}
+.ortadogu button{
+    margin-left: 15px;
+}
+.basliksiz{
+    margin-top: 15px;
+}
+.accordion-body ul li{
+    list-style: none;
+    padding-bottom: 25px;
+}
+.accordion-body a{
+    text-decoration: none;
+    color: #6c6c6c;
+}
+.icon{
+    font-size: 2rem;
+    padding-right: 15px;
+    margin-top: 50px;
+}
+.icon a {
+   color: black;
+   padding-right: 10px;
+}
+.accordion-button{
+    font-size: 1.5rem;
+}
+.footer ul{ 
+    padding-left: 0px;
+}
+.footer ul li {
+    list-style: none;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+}
+.footer a{
+    text-decoration: none;
+    color:#323232 ;
+}
+.toffenut{
+    width:min-content;
+}
+@media screen and (min-width: 1024px) 
+{
+    .video{
+        position: fixed;
+        top:    0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        overflow: auto;
+        width: 39vw;
+        background-color: #daeee1;
+        
+    }
+
+    .toffenut
+    {
+        margin-top: 50px;
+        margin-left: 40vw;
+    }
+    #mesaj{
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 40px;
+        font-size: 2em;
+        font-weight:490;
+    }
+}
+@media screen and (max-width:768px) 
+{
+ .video video
+{
+    width: 100%;
+    margin-top: 0px;
+}
+ .toffenut img
+{
+    width:100%;
+}
+ .ortadogu
+{
+    margin: 0px;
+} 
+ .ortadogu img 
+{
+    width: 350px !important; 
+    margin-bottom: 20px;
+}
+ .menü
+{
+    width: 385px;
+}
+ .alt
+{
+    text-align: justify;
+    margin-left: 20px;
+}
+
+}
+.menü{
+    width: 50vw;
+}
+
